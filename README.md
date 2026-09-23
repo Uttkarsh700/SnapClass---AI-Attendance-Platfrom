@@ -49,3 +49,7 @@ database, computer-vision, and audio dependencies and providing the expected
 environment variables. The Streamlit application does not currently have a root
 launcher file in this repository.
 
+When changing the landing page, update the matching template, stylesheet, or script
+under `templates/` and `static/`. When changing attendance behavior, start from the
+corresponding screen or pipeline under `src/` and verify its database and model
+configuration before deployment.
